@@ -1,0 +1,43 @@
+.skills{
+   align-items: center;
+   justify-items: center;
+}
+.description{
+    color: rgb(7, 155, 147);
+    border: 2px solid rgb(158, 201, 199);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icons i{
+font-size: 100px;
+padding: 30px;
+
+}
+a{
+    padding: 5px;
+    color: rgb(4, 107, 85);
+    font-size: 20px;
+background-color: rgb(189, 182, 182);
+border-radius: 5px;
+margin: 20px;}
+a:hover{
+    color: black;
+}
+@media(max-width:100vh){
+    .icons{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .icons i{
+        display: grid;
+        grid-auto-flow: row;
+        font-size: 50px;
+    }
+}

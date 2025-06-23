@@ -1,0 +1,51 @@
+#contact{
+ color: rgb(101, 143, 141);
+    padding: 10px;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+}
+.social-account{
+    margin-left: 50px;
+}
+.social-account li{
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+      align-content: center;
+    justify-content: center;
+}
+li a{
+    text-decoration: none;
+    color: rgb(6, 123, 131);
+    background-color: rgb(247, 247, 248);
+    margin-top: 100px;
+}
+li a:hover{
+color: white;
+background-color:  rgb(134, 174, 177);;
+}
+.footer p{
+        border: 2px solid rgb(176, 243, 243);
+        border-radius: 20px ;
+        padding: 20px;
+        font-size: small;
+        color: rgb(8, 88, 88);
+
+}
+.footer a{
+    padding: 5px;
+    color: rgb(4, 107, 85);
+    font-size: 20px;
+background-color: rgb(189, 182, 182);
+border-radius: 5px;
+margin: 20px;
+margin-top: 0%;
+justify-self: center;
+align-self: center;}
+
+.footer a:hover{
+    color: black;
+}
